@@ -9,7 +9,8 @@ import { items } from  './items';
             <i #target  class="">Menu</i>
           </div>    
           <kendo-contextmenu [target]="target" [items]="items" showOn="click"> </kendo-contextmenu> -->
-         <div>My Name is KKK</div>   
+         <div>My Name is KKK</div> 
+         <div> New check </div>
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
                 <kendo-tabstrip-tab title="Gridster Example 1" [selected]="true">
