@@ -9,6 +9,7 @@ import { items } from  './items';
             <i #target  class="">Menu</i>
           </div>    
           <kendo-contextmenu [target]="target" [items]="items" showOn="click"> </kendo-contextmenu> -->
+          <p></p>
          <div>My Name is KKK</div>   
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
