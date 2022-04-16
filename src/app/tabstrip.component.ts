@@ -4,12 +4,7 @@ import { items } from  './items';
 
 @Component({
     selector: 'my-tabstrip',
-    template: `            
-         <!-- <div class="burger-div">
-            <i #target  class="">Menu</i>
-          </div>    
-          <kendo-contextmenu [target]="target" [items]="items" showOn="click"> </kendo-contextmenu> -->
-        <p>Test AAA</p>
+    template: `                     
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
                 <kendo-tabstrip-tab title="Gridster Example 1" [selected]="true">
