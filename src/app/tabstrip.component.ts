@@ -5,11 +5,7 @@ import { items } from  './items';
 @Component({
     selector: 'my-tabstrip',
     template: `      
-        <div style=padding-left: 150px;>      
-         <div class="burger-div">
-            <i #target  class="">Menu</i>
-          </div>    
-          <kendo-contextmenu [target]="target" [items]="items" showOn="click"> </kendo-contextmenu>        
+        <div style="padding-left: 150px;">                 
         </div>    
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
