@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { SelectEvent } from '@progress/kendo-angular-layout';
 import { items } from  './items';
-
 @Component({
     selector: 'my-tabstrip',
-    template: `                     
+    template: `                         
+        <div style="width: 100%; padding-bottom: 60px;">  
+            <my-menu></my-menu> 
+        </div>            
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
                 <kendo-tabstrip-tab title="Gridster Example 1" [selected]="true">
