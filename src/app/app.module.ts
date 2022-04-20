@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { GridComponent } from './grid.component';
 import { ChartComponent } from './chart.component';
 import { TabStripComponent } from './tabstrip.component';
+import { Menu1Component } from './menu.component';
 
 const appRoutes: Routes = [
   
@@ -30,7 +31,7 @@ const appRoutes: Routes = [
 
 @NgModule({
     bootstrap:    [AppComponent],
-    declarations: [AppComponent, GridComponent, ChartComponent,TabStripComponent],
+    declarations: [Menu1Component, AppComponent, GridComponent, ChartComponent,TabStripComponent],
     schemas:[CUSTOM_ELEMENTS_SCHEMA],
     imports:[BrowserModule,
       BrowserAnimationsModule,

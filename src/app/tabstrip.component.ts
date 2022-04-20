@@ -5,8 +5,9 @@ import { items } from  './items';
 @Component({
     selector: 'my-tabstrip',
     template: `      
-        <div style="padding-left: 150px;">                 
-        </div>    
+        <div style="width: 100%; padding-bottom: 60px;">  
+            <my-menu></my-menu> 
+        </div>            
         <div class="wrapper">        
             <kendo-tabstrip (tabSelect)="onTabSelect($event)">                
                 <kendo-tabstrip-tab title="Gridster Example 1" [selected]="true">
